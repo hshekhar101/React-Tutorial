@@ -1,0 +1,21 @@
+body{
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 2rem 0;
+}
+
+#inc{
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+#dec{
+    cursor: pointer;
+}
