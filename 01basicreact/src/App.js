@@ -1,6 +1,9 @@
 function App() {
   return (
-    <h1>Chai aur react</h1>
+    <div>
+      <h1>Chai aur react</h1>
+      <h2>Learned basics of react</h2>
+    </div>
   );
 }
 
