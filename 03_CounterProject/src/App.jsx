@@ -22,7 +22,7 @@ function App() {
     if(count>0){
       setCount(count - 1) // It will decrease the value of count by 1 and it will render the value on the screen
       console.log(count) 
-    }
+    }     
   }
 
   useEffect(() => { // useEffect is a hook which is brought in from react // It is used to run a function or a piece of code when the component is rendered
