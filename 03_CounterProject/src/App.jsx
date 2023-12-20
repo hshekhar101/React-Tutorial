@@ -6,14 +6,30 @@ import { useEffect, useState } from "react" // useState is a hook which is broug
 
 
 function App() {
-  
-  const [count, setCount] = useState(0) // 0 is the initial value of count
+  // here const means the reference to the array is constant but the value inside the array can change
+  const [count, setCount] = useState(15) // 0 is the initial value of count
   // let count = 5
 
   const addValue = function () {
     //count++ // It will increase the value of count by 1 but it will not render the value on the screen // That's why we need to use "useState - hooks"
     if(count<20){
-      setCount(count + 1) // It will increase the value of count by 1 and it will render the value on the screen 
+      setCount(count + 1) // It will increase the value of count by 1 and it will render the value on the screen \
+      // setCount(count+1);
+      // setCount(count+1);
+      // setCount(count+1);
+      /* The above three lines will not increase the value of count by 3 because useState sends the data in form of batches */
+
+      // To overcome this problem we can use the following code
+      // setCount((prevCount) => {
+      //   return prevCount + 1
+      // })
+      // setCount((prevCount) => {
+      //   return prevCount + 1
+      // })
+      // setCount((prevCount) => {
+      //   return prevCount + 1
+      // })
+      // This will update the value of count by 3
       console.log(count) 
     }
   }
