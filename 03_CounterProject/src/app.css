@@ -19,3 +19,16 @@ h1{
 #dec{
     cursor: pointer;
 }
+
+.footer-content {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    position: relative;
+    bottom: -380px;
+  }
