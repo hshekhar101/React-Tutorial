@@ -30,7 +30,7 @@ function InputBox({
             min={0}
             onChange={(e) => {
               e.preventDefault();
-              onAmountChange(e.target.value)}}
+              onAmountChange(Number(e.target.value))}}
             value={amount}
             disabled={amountDisable}
           />
@@ -46,6 +46,7 @@ function InputBox({
             disabled={currencyDisable}
           >
             {currencyOptions.map((currency) => (
+              // when we run the loop in react.jsx then we must pass unique key for every iteration for better performance
               <option key={currency} value={currency}>
                 {currency}
               </option>

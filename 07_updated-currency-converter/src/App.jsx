@@ -68,7 +68,7 @@ function App() {
             onCurrencyChange={(currency) => setTo(currency)}
             currencyOptions={keysArray}
             selectCurrency={to}
-            amountDisable
+            amountDisable={true}
           />
           <button
             onClick={(e) => {
