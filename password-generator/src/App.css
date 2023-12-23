@@ -1,0 +1,74 @@
+.container {
+  background-color: rgb(29, 29, 29);
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.container h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.password-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.password-section input {
+  color: black;
+  width: 50%;
+  height: 50px;
+  font-size: larger;
+  border-radius: 10px;
+  border: 1px solid rgb(29, 29, 29);
+  padding-left: 10px;
+}
+
+#copy {
+  width: 10%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(24, 126, 244);
+}
+
+#copy:hover {
+    background-color: #1478c1;
+    cursor: pointer; 
+  }
+
+.manual-change {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+.manual-change input {
+  border: 1px solid rgb(29, 29, 29);
+}
+
+.manual-change h3 {
+  margin-right: 20px;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.copied {
+  border: 2px solid green; /* Add a border to highlight the input */
+  background-color: #e0ffe0; /* Add a background color for additional emphasis */
+}

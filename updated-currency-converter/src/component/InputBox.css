@@ -1,0 +1,43 @@
+.inputbox{
+    background-color: white;
+    border-radius: 8px;
+    /* width: 100%; */
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+.placeholder{
+    display: flex;
+    margin: 5px 0px;
+}
+
+.placeholder input{
+    /* background-color: rgb(236, 239, 240); */
+    border-radius: 4px;
+    
+}
+
+.currencyType{
+    /* background-color: rgb(236, 239, 240); */
+    border-radius: 4px;
+    text-align: right;
+   
+}
+
+
+.input{
+    display: flex;
+    justify-content: space-between;  
+    margin: 10px 0px;
+}
+
+.input input{
+    /* background-color: rgb(236, 239, 240); */
+    border-radius: 4px;
+}
+
+.input select{
+    background-color: rgb(236, 239, 240);
+    border-radius: 4px;
+}
+
