@@ -10,6 +10,11 @@ Visit our website: <a href="https://bg-clr-changer.netlify.app/" target="_blank"
 
 Visit our website: <a href="https://password-generator-appli.netlify.app/" target="_blank">password-generator-app</a>
 
+## Currency Converter
+
+Visit our website: <a href="https://currency-convertor-appl.netlify.app/" target="_blank">currency-converter-app</a>
+
+
 ## Getting Started
 
 Follow these steps to get started with the project:
