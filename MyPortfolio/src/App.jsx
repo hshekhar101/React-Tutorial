@@ -11,13 +11,13 @@ function App() {
   };
 
   const mouseEntering = function (element) {
-    element.style.transition = "0.1s";
+    element.style.transition = "0.3s";
     element.style.transform = "scale(1.1)";
     element.style.transformStyle = "preserve-3d"; // Prevent transformation from affecting child elements
   };
 
   const mouseLeaving = function (element) {
-    element.style.transition = "0.1s";
+    element.style.transition = "0.3s";
     element.style.transform = "scale(1)";
     element.style.transformStyle = "flat";
   };
