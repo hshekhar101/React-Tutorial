@@ -268,7 +268,7 @@ function App() {
               className="item2 item"
               onClick={() => {
                 window.open(
-                  "https://github.com/ravi9694/Majuli-Island-Virtual-Tour-Project",
+                  "https://github.com/hshekhar101/Majuli-Island-Virtual-Tour-Project",
                   "_blank"
                 );
               }}
